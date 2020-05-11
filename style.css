@@ -1,0 +1,34 @@
+.block{
+    width: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid orange;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c0c0c0;
+    text-align: center;
+}
+
+.cat{
+    max-width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+
+.hide{
+    height: 0;
+    overflow: hidden;
+}
+.description > img {
+    width: 30%;
+    margin: 20px auto;
+}
+#show-description{
+    width: 36px;
+    height: 36px;
+    background-image: url('/img/Arrow_down.png');
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
