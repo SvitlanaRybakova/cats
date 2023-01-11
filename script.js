@@ -3,8 +3,8 @@ window.onload = function (){
     function (){
         document.querySelector('.description').classList.toggle('hide');
     
-        let descriptionClasses = document.querySelector('.description').classList;//это не массив, а коллеекция элементов
-        let classArray = Array.from(descriptionClasses); // преобразовываем коллекцию в массив
+        let descriptionClasses = document.querySelector('.description').classList;
+        let classArray = Array.from(descriptionClasses); 
 
         if (classArray.indexOf('hide') != -1 ){
             document.querySelector('#show-description').style.backgroundImage = 'url("/img/Arrow_down.png")';
